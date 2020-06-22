@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/kidussolomon/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Android/sdk/platform-tools:~/mongodb/bin:/Users/kidussolomon/Library/Android/sdk/ndk-bundle:~/cassandra/bin:~/flutter/bin:~/elasticsearch/bin:/Users/kidussolomon/Dev/Mega/MegaDropdown/node_modules/.bin:/Users/kidussolomon/Library/Android/sdk/platform-tools/:/Users/kidussolomon/flutter/bin/
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/kidussolomon/Dev/Mega/MegaDropdown/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+
+npm manifest: 
+  {
+    "name": "Demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-native start",
+      "generate-mdp": "mkdir -p mdp && cp manifest.json ./mdp/manifest.json && react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output mdp/index.android.bundle --assets-dest ./mdp"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "react": "^16.13.0",
+      "react-native": "^0.61.5",
+      "lottie-react-native": "^3.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

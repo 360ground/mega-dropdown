@@ -1,0 +1,11 @@
+{
+   "appName": "Demo",
+   "description": "a mini app to test mega-dropdown component",
+   "iconUrl": "https://www.google.com",
+   "primaryColor": "#FFFFFF",
+   "packageId": "com.megadropdown",
+   "permissions": [],
+   "versionCode": 1,
+   "versionName": "1.0.0",
+   "independentStack": false
+}

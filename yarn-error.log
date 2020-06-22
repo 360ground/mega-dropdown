@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add prop-types: latest,
+
+PATH: 
+  /Users/kidussolomon/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Android/sdk/platform-tools:~/mongodb/bin:/Users/kidussolomon/Library/Android/sdk/ndk-bundle:~/cassandra/bin:~/flutter/bin:~/elasticsearch/bin:/Users/kidussolomon/Dev/Mega/MegaDropdown/node_modules/.bin:/Users/kidussolomon/Library/Android/sdk/platform-tools/:/Users/kidussolomon/flutter/bin/
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: prop-types:: Invalid URI "prop-types:/"
+      at Request.module.exports.Request.init (/usr/local/lib/node_modules/yarn/lib/cli.js:134763:31)
+      at new Request (/usr/local/lib/node_modules/yarn/lib/cli.js:134617:8)
+      at request (/usr/local/lib/node_modules/yarn/lib/cli.js:131616:10)
+      at RequestManager.execute (/usr/local/lib/node_modules/yarn/lib/cli.js:65708:15)
+      at RequestManager.shiftQueue (/usr/local/lib/node_modules/yarn/lib/cli.js:65735:10)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:65486:13
+      at new Promise (<anonymous>)
+      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:23451:28)
+      at RequestManager.request (/usr/local/lib/node_modules/yarn/lib/cli.js:65484:19)
+      at NpmRegistry.request (/usr/local/lib/node_modules/yarn/lib/cli.js:31153:32)
+
+npm manifest: 
+  {
+    "name": "MegaDropdown",
+    "version": "1.0.0",
+    "description": "Mega dropdown component with list",
+    "main": "index.js",
+    "directories": {
+      "example": "example"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
